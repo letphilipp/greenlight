@@ -27,8 +27,9 @@
         gtag('config', "<%= ENV["GOOGLE_ANALYTICS_TRACKING_ID"] %>");
       </script>
     <% end %>
-
-    <title><%= t("bigbluebutton") %></title>
+    
+    
+    <title>LearnEasy24 for school</title>
     <meta property="og:title" content="<%= t("bigbluebutton", locale: :en) %>" />
     <meta property="og:type" content="website" />
     <meta property="og:description" content="<%= t("landing.about", href: "Greenlight", locale: :en) %>" />
@@ -37,7 +38,7 @@
 
     <meta name="viewport" content= "width=device-width, user-scalable=no">
     <%= csrf_meta_tags %>
-
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,800&display=swap" rel="stylesheet" />
     <!-- Global javascript variables and helpers. -->
     <script type="text/javascript">
       window.GreenLight = {};
