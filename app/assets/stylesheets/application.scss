@@ -213,7 +213,8 @@ a {
 	}
 
 	.logo {
-		width: 100%;
+    width: 100%;
+    color: white;
   }
   
   .footer-logo{
@@ -227,6 +228,10 @@ a {
     color: white;
     margin-top: 25px;
     height: 40px;
+  }
+
+  .socialIcons2{
+    margin-left: 20px;
   }
 
 	.svg-inline--fa {
