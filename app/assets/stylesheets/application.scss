@@ -120,7 +120,8 @@ a {
 		margin: 5px;
 		color: white !important;
 		font-weight: 800;
-		border-radius: 12px;
+    border-radius: 12px;
+    min-width: 245px;
 	}
 
 	.w3-button--orange {
@@ -154,6 +155,12 @@ a {
 	.w3-feature {
 		text-align: left;
 	}
+}
+
+@media screen and (max-width: 520px) {
+  .background-hero h1, .feature-heading{
+    font-size: 36px;
+  }
 }
 
 .error-section {
