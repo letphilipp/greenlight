@@ -144,7 +144,7 @@ a {
 		max-width: 800px;
 		margin: auto;
 		margin-bottom: 50px;
-		font-size: 24px;
+		font-size: 18px;
 	}
 
 	.w3-features {
@@ -158,9 +158,11 @@ a {
 }
 
 @media screen and (max-width: 520px) {
-  .background-hero h1, .feature-heading{
+  .background-hero h1, .feature-container .feature-heading{
     font-size: 36px;
   }
+
+  
 }
 
 .error-section {
