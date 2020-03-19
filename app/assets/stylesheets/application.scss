@@ -120,8 +120,8 @@ a {
 		margin: 5px;
 		color: white !important;
 		font-weight: 800;
-    border-radius: 12px;
-    min-width: 245px;
+		border-radius: 12px;
+		min-width: 245px;
 	}
 
 	.w3-button--orange {
@@ -154,15 +154,74 @@ a {
 
 	.w3-feature {
 		text-align: left;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+}
+
+.main-footer {
+	background-color: #142954;
+	float: left;
+	width: 100%;
+	height: 100%;
+
+	.inner-wrapper {
+		float: left;
+		width: calc(100% - 40px);
+		margin: 20px;
+		padding: 0 1rem;
+	}
+
+	.element {
+		width: 100%;
+		height: 100%;
+		float: left;
+		text-align: center;
+		margin: 50px 0 50px 0;
+	}
+
+	h5 {
+		font-size: 16px;
+		color: #ffffff;
+		font-family: "Poppins", sans-serif;
+		font-weight: 700;
+		margin: 0 0 20px 0;
+	}
+
+	ul {
+		padding: 0;
+		margin: 0;
+	}
+
+	li {
+		list-style: none;
+		margin: 0 0 20px 0;
+	}
+
+	a {
+		transition: all 0.3s;
+		text-decoration: none;
+		font-size: 16px;
+		color: #ffffff;
+		font-family: "Poppins", sans-serif;
+		font-weight: 400;
+	}
+
+	.svg-inline--fa {
+		display: inline-block;
+		font-size: inherit;
+		height: 1em;
+		width: 1em;
+		overflow: visible;
+		vertical-align: -0.125em;
 	}
 }
 
 @media screen and (max-width: 520px) {
-  .background-hero h1, .feature-container .feature-heading{
-    font-size: 36px;
-  }
-
-  
+	.background-hero h1,
+	.feature-container .feature-heading {
+		font-size: 36px;
+	}
 }
 
 .error-section {
