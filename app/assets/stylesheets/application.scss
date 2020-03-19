@@ -207,32 +207,31 @@ a {
 	}
 
 	a:hover {
-		transition: all 0.3s!important;
-		color: #ed4176!important;
-		text-decoration: underline!important;
+		transition: all 0.3s !important;
+		color: #ed4176 !important;
+		text-decoration: underline !important;
 	}
 
 	.logo {
-    width: 100%;
-    color: white;
-  }
-  
-  .footer-logo{
-    width: 213.26px;
-    margin: 0;
-  }
+		width: 100%;
+		color: white;
+	}
 
+	.footer-logo {
+		width: 213.26px;
+		margin: 0;
+	}
 
-  .socialIcons{
-    font-size: 50px;
-    color: white;
-    margin-top: 25px;
-    height: 40px;
-  }
+	.socialIcons {
+		font-size: 50px;
+		color: white;
+		margin-top: 25px;
+		height: 40px;
+	}
 
-  .socialIcons2{
-    margin-left: 20px;
-  }
+	.socialIcons2 {
+		margin-left: 20px;
+	}
 
 	.svg-inline--fa {
 		display: inline-block;
@@ -242,9 +241,22 @@ a {
 		overflow: visible;
 		vertical-align: -0.125em;
 	}
+
+	.credentials-wrapper {
+		p {
+			display: block;
+			width: 100%;
+			font-family: "Poppins", sans-serif;
+			font-weight: 400;
+			color: #ffffff;
+			font-size: 12px;
+			line-height: 25px;
+			text-align: center;
+			margin-top: 10px;
+			margin-bottom: 0;
+		}
+	}
 }
-
-
 
 @media screen and (min-width: 768px) {
 	.main-footer {
@@ -283,11 +295,11 @@ a {
 		.logo {
 			float: left !important;
 			width: 290px;
-    }
-    
-    .footer-logo{
-      width: 290px;
-    }
+		}
+
+		.footer-logo {
+			width: 290px;
+		}
 	}
 }
 
