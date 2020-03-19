@@ -21,7 +21,7 @@
         <p class="lead offset-lg-2 col-lg-8 col-sm-12 "><%= t("landing.about", href: link_to(t("greenlight"), "https://bigbluebutton.org/2018/07/09/greenlight-2-0/", target: "_blank", rel: "noopener")).html_safe %></p>
         <div class="w3-button-container">
         
-          <a href="#" class="w3-button w3-button--orange"> Klassenzimmer erstellen</a>
+        <a <% if current_user link_to (home_page) %>   <% else %> href="/b/signup" <% end %> class="w3-button w3-button--orange"> Klassenzimmer erstellen</a>
         </div>
       </div>
 
@@ -40,7 +40,7 @@
         <p class="lead offset-lg-2 col-lg-8 col-sm-12 ">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat</p>
         <div class="w3-button-container">
         
-          <a href="#" class="w3-button w3-button--orange"> Klassenzimmer erstellen</a>
+          <a <% if current_user link_to (home_page) %>   <% else %> href="/b/signup" <% end %> class="w3-button w3-button--orange"> Klassenzimmer erstellen</a>
         </div>
       </div>
 

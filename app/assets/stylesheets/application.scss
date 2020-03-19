@@ -261,6 +261,12 @@ a {
 }
 
 @media screen and (min-width: 768px) {
+	.feature-container {
+		.w3-features {
+			text-align: center;
+		}
+	}
+
 	.main-footer {
 		.inner-wrapper {
 			margin-top: 50px;
