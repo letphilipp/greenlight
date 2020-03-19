@@ -111,6 +111,9 @@ a {
 
   .w3-button-container{
     margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
   }
   .w3-button{
     padding: 20px;
