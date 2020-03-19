@@ -202,10 +202,25 @@ a {
 		transition: all 0.3s;
 		text-decoration: none;
 		font-size: 16px;
-		color: #ffffff!important;
+		color: #ffffff !important;
 		font-family: "Poppins", sans-serif;
 		font-weight: 400;
 	}
+
+	a:hover {
+		transition: all 0.3s;
+		color: #ed4176;
+		text-decoration: underline;
+	}
+
+	.logo {
+		width: 100%;
+  }
+  
+  .footer-logo{
+    width: 213.26px;
+    margin: 0;
+  }
 
 	.svg-inline--fa {
 		display: inline-block;
@@ -219,25 +234,47 @@ a {
 
 @media screen and (min-width: 1280px) {
 	.main-footer {
-    .element {
-      text-align: left;
-    width: calc(100% / 4 - 30px);
+		.inner-wrapper {
+			width: 1280px;
+			margin-left: calc(50% - 640px);
+		}
+
+		.element {
+			text-align: left;
+			width: calc(100% / 4 - 30px);
+		}
+
+		.logo {
+			float: left !important;
+			width: 290px;
     }
-  }
+    
+    .footer-logo{
+      width: 290px;
+    }
+	}
 }
 
 @media screen and (min-width: 768px) {
 	.main-footer {
-    .element {
-      width: calc(100% / 2 - 30px);
-      margin-left: 20px;
-      text-align: left;
-    }
+		.inner-wrapper {
+			margin-top: 50px;
+			margin-bottom: 80px;
+		}
+		.element {
+			width: calc(100% / 2 - 30px);
+			margin-left: 20px;
+			text-align: left;
+		}
 
-    h5{
-      margin-bottom: 30px;
-    }
-  }
+		h5 {
+			margin-bottom: 30px;
+		}
+
+		.logo {
+			width: 213.26px;
+		}
+	}
 }
 
 @media screen and (max-width: 520px) {
