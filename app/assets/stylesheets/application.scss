@@ -133,7 +133,7 @@ a {
 
 .feature-container {
 	color: #142954;
-	h2 {
+	.feature-heading {
 		font-size: 60px;
 		font-weight: bold;
 	}
@@ -144,6 +144,15 @@ a {
 		margin: auto;
 		margin-bottom: 50px;
 		font-size: 24px;
+	}
+
+	.w3-features {
+		margin-top: 80px;
+		margin-bottom: 80px;
+	}
+
+	.w3-feature {
+		text-align: left;
 	}
 }
 
