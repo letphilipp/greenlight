@@ -175,7 +175,7 @@ a {
 	}
 
 	.footer-top-content {
-		max-width: 1200px;
+		// max-width: 1200px;
 		margin: auto;
 		display: flex;
 		align-items: center;
@@ -224,7 +224,7 @@ a {
 
 .main-footer {
 	background-color: #142954;
-	// float: left;
+	float: left;
 	width: 100%;
 
 	.inner-wrapper {
@@ -353,7 +353,7 @@ a {
 	.main-footer {
 		.inner-wrapper {
 			width: 1200px;
-			// margin-left: calc(50% - 640px);
+			margin-left: calc(50% - 605px);
 		}
 
 		.element {
