@@ -135,8 +135,8 @@ a {
 .background-hero2 {
 	background: image-url("landing_bot.jpg");
 	background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 @media screen and (max-width: 520px) {
@@ -225,8 +225,6 @@ a {
 		}
 	}
 }
-
-
 
 .main-footer {
 	background-color: #142954;
@@ -327,10 +325,7 @@ a {
 	}
 }
 
-
-
-@media (min-width: 576px){
-	
+@media (min-width: 576px) {
 }
 
 @media screen and (min-width: 768px) {
@@ -361,8 +356,8 @@ a {
 	}
 }
 
-@media (min-width: 992px){
-	.main-footer .inner-wrapper{
+@media (min-width: 992px) {
+	.main-footer .inner-wrapper {
 		margin: auto;
 		float: none;
 	}
@@ -373,6 +368,8 @@ a {
 		.inner-wrapper {
 			width: 1200px;
 			margin-left: calc(50% - 605px);
+			display: flex;
+			justify-content: space-between;
 		}
 
 		.element {
@@ -409,17 +406,17 @@ a {
 		flex-wrap: wrap;
 	}
 
-	.main-footer .inner-wrapper{
+	.main-footer .inner-wrapper {
 		margin: auto;
 		float: none;
 	}
 }
 
 .fpr-text:hover {
-    box-shadow: 3px 3px 18px #0000002e;
+	box-shadow: 3px 3px 18px #0000002e;
 }
 
-.main-footer .ft-link:hover{
+.main-footer .ft-link:hover {
 	text-decoration: none !important;
 }
 
