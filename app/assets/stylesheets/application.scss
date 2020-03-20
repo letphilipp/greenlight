@@ -213,22 +213,7 @@ a {
 	}
 }
 
-@media screen and (max-width: 995px) {
-	.footer-top {
-		.footer-top-right {
-			margin-left: unset;
-			margin-bottom: 12px;
-		}
-	}
-	.footer-top .footer-top-content {
-		flex-wrap: wrap;
-	}
 
-	.main-footer .inner-wrapper{
-		margin: auto;
-		float: none;
-	}
-}
 
 .main-footer {
 	background-color: #142954;
@@ -397,6 +382,23 @@ a {
 	.background-hero h1,
 	.feature-container .feature-heading {
 		font-size: 36px;
+	}
+}
+
+@media screen and (max-width: 995px) {
+	.footer-top {
+		.footer-top-right {
+			margin-left: unset;
+			margin-bottom: 12px;
+		}
+	}
+	.footer-top .footer-top-content {
+		flex-wrap: wrap;
+	}
+
+	.main-footer .inner-wrapper{
+		margin: auto;
+		float: none;
 	}
 }
 
