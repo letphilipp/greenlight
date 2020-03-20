@@ -213,9 +213,18 @@ a {
 	}
 }
 
+@media screen and (max-width: 995px) {
+	.footer-top {
+		.footer-top-right {
+			margin-left: unset;
+			margin-bottom: 12px;
+		}
+	}
+}
+
 .main-footer {
 	background-color: #142954;
-	float: left;
+	// float: left;
 	width: 100%;
 
 	.inner-wrapper {
@@ -326,7 +335,7 @@ a {
 		}
 		.element {
 			width: calc(100% / 2 - 30px);
-			margin-left: 20px;
+			// margin-left: 20px;
 			text-align: left;
 		}
 
@@ -343,8 +352,8 @@ a {
 @media screen and (min-width: 1280px) {
 	.main-footer {
 		.inner-wrapper {
-			width: 1280px;
-			margin-left: calc(50% - 640px);
+			width: 1200px;
+			// margin-left: calc(50% - 640px);
 		}
 
 		.element {
