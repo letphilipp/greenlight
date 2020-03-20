@@ -220,6 +220,9 @@ a {
 			margin-bottom: 12px;
 		}
 	}
+	.footer-top .footer-top-content {
+		flex-wrap: wrap;
+	}
 }
 
 .main-footer {
@@ -321,6 +324,12 @@ a {
 	}
 }
 
+
+
+@media (min-width: 576px){
+	
+}
+
 @media screen and (min-width: 768px) {
 	.feature-container {
 		.w3-features {
@@ -346,6 +355,13 @@ a {
 		.logo {
 			width: 213.26px;
 		}
+	}
+}
+
+@media (min-width: 992px){
+	.main-footer .inner-wrapper{
+		margin: auto;
+		float: none;
 	}
 }
 
