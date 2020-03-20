@@ -139,6 +139,12 @@ a {
     background-size: cover;
 }
 
+@media screen and (max-width: 520px) {
+	.background-hero2 {
+		height: 900px;
+	}
+}
+
 .feature-container {
 	margin-top: 50px;
 	margin-bottom: 50px;
