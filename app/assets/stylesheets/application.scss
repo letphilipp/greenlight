@@ -402,7 +402,11 @@ a {
 	}
 }
 
-.ft-link:hover{
+.fpr-text:hover {
+    box-shadow: 3px 3px 18px #0000002e;
+}
+
+.main-footer .ft-link:hover{
 	text-decoration: none !important;
 }
 
