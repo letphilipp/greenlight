@@ -402,6 +402,10 @@ a {
 	}
 }
 
+.ft-link:hover{
+	text-decoration: none !important;
+}
+
 .error-section {
 	background-color: $error-background-color;
 }
