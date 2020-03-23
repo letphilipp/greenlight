@@ -463,7 +463,7 @@ a {
 }
 
 .cookies-banner {
-	height: $footer-height;
+	// height: $footer-height;
 	color: white;
 	background-color: $button-color-blue;
 
@@ -520,7 +520,7 @@ table {
 }
 
 @media screen and (max-width: 1094px) {
-	.cookies-warning-bottom {
+	.cookies-warning-button {
 		margin-top: 15px;
 	}
 }
