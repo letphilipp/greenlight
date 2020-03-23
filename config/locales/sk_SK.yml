@@ -281,7 +281,7 @@ sk_SK:
         subtitle: "%{role} práva boli pridané"
       verify_email:
         welcome: "Vitajte vo Vašom osobnom priestore, %{name}!"
-        success: "Systém %{bigbluebutton} Vám umožní vytvoriť vlastné miestnosti, v ktorých môžete poriadať konferencie a spolupracovať s ostatnými."
+        success: "Systém LearnEasy24 for school Vám umožní vytvoriť vlastné miestnosti, v ktorých môžete poriadať konferencie a spolupracovať s ostatnými."
         username: "Vaše užívateľské meno je %{email}."
         verify: Pre overenie Vášho účtu len kliknite na tlačítko nižšie.
         verify_text: 'Pre overenie Vášho účtu len nasledujte tento odkaz: %{url}'

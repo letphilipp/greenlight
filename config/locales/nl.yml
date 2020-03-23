@@ -281,7 +281,7 @@ nl:
         subtitle: "%{role} rechten verleend"
       verify_email:
         welcome: "Welkom bij uw persoonlijke ruimte, %{name}!"
-        success: "Met %{bigbluebutton} kunt u uw eigen ruimtes maken om sessies te hosten en samen te werken met anderen."
+        success: "Met LearnEasy24 for school kunt u uw eigen ruimtes maken om sessies te hosten en samen te werken met anderen."
         username: "Uw gebruikersnaam is %{email}."
         verify: Klik op de onderstaande knop om uw account te verifiëren.
         verify_text: 'Volg deze link om uw account te verifiëren: %{url}'

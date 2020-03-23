@@ -277,7 +277,7 @@ vi_VN:
         subtitle:
       verify_email:
         welcome: "Chào mừng đến với không gian cá nhân của bạn, %{name}!"
-        success: "Tận dụng %{bigbluebutton}, bạn có thể tạo phòng riêng để tổ chức các phiên và cộng tác với những người khác."
+        success: "Tận dụng LearnEasy24 for school, bạn có thể tạo phòng riêng để tổ chức các phiên và cộng tác với những người khác."
         username: "Tên đăng nhập là %{email}."
         verify: "Để xác minh tài khoản của bạn, chỉ cần nhấp vào nút bên dưới."
         verify_text: 'Để xác minh tài khoản của bạn, cần vào liên kết sau: %{url}'

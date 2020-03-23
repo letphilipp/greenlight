@@ -311,7 +311,7 @@ de_DE:
         subtitle: "%{role} Rechte erteilt"
       verify_email:
         welcome: "Willkommen zu Ihrem persönlichem Bereich, %{name}!"
-        success: "Durch den Einsatz von %{bigbluebutton}, können Sie Ihre eigenen Räume erstellen, dort Konferenzen durchführen und mit anderen zusammenarbeiten."
+        success: "Durch den Einsatz von LearnEasy24 for school, können Sie Ihre eigenen Räume erstellen, dort Konferenzen durchführen und mit anderen zusammenarbeiten."
         username: "Ihr Benutzername ist  %{email}."
         verify: "Zur Accountverfikation, klicken Sie bitte auf den untenstehenden Link."
         verify_text: 'Um Ihren Account zu verifizieren, folgen Sie diesem Link: %{url}'

@@ -281,7 +281,7 @@ pt_BR:
         subtitle: "%{role} Permissões concedidas"
       verify_email:
         welcome: "Bem vindo ao seu espaço pessoal, %{name}!"
-        success: "Aproveitando %{bigbluebutton}, você pode criar suas próprias salas para hospedar sessões de video-conferências e colaborar com outros."
+        success: "Aproveitando LearnEasy24 for school, você pode criar suas próprias salas para hospedar sessões de video-conferências e colaborar com outros."
         username: "Sua identificação é %{email}."
         verify: "Para verificar sua conta, clique no link abaixo."
         verify_text: 'Para verificar sua conta, siga esse link: %{url}'

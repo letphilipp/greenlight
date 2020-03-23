@@ -281,7 +281,7 @@ es_MX:
         subtitle: "Permisos de %{role} asignados"
       verify_email:
         welcome: "Bienvenido a tu espacio personal %{name}"
-        success: "Haciendo uso de %{bigbluebutton}, puedes crear tus propias salas para sostener reuniones y colaborar con otros."
+        success: "Haciendo uso de LearnEasy24 for school, puedes crear tus propias salas para sostener reuniones y colaborar con otros."
         username: "Tu nombre de usuario es %{email}"
         verify: "Para verificar la cuenta, haz click en el botón que aparece abajo."
         verify_text: 'Utiliza este enlace para verificar tu cuenta: %{url}'
