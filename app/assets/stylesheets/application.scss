@@ -82,7 +82,8 @@ a {
 .wrapper {
 	position: relative;
 	height: auto;
-	min-height: calc(100% - #{$header-height} - #{$footer-height});
+	// min-height: calc(100% - #{$header-height} - #{$footer-height});
+	min-height: calc(100% - 574px);
 }
 
 .footer {
@@ -471,6 +472,14 @@ a {
 	}
 }
 
+.my-cookies {
+	display: flex;
+	padding: 20px 5px;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
 input:focus {
 	border-color: $primary !important;
 }
@@ -508,4 +517,10 @@ table {
 
 #delete-confirm:disabled {
 	cursor: not-allowed;
+}
+
+@media screen and (max-width: 1094px) {
+	.cookies-warning-bottom {
+		margin-top: 15px;
+	}
 }
