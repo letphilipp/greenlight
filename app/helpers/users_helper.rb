@@ -57,6 +57,11 @@ module UsersHelper
     time.in_time_zone(ActiveSupport::TimeZone.new('CET'))
   end
 
+  # Returns a cleaner date
+  def date_formatter(date)
+    date.strftime('%d %m %Y %H:%M')
+  end
+
   # Parses markdown for rendering.
   def markdown(text)
     markdown = Redcarpet::Markdown.new(Redcarpet::Render::HTML,
