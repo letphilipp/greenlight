@@ -59,7 +59,7 @@ module UsersHelper
 
   # Returns a cleaner date
   def date_formatter(date)
-    date.strftime('%d %m %Y %H:%M')
+    date.strftime('%d.%m.%Y %H:%M')
   end
 
   # Parses markdown for rendering.
