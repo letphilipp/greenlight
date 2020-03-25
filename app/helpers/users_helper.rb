@@ -52,6 +52,11 @@ module UsersHelper
     language_opts.sort
   end
 
+   # Returns user local time
+   def user_local_time(time)
+    time.in_time_zone(ActiveSupport::TimeZone.new('CET'))
+  end
+
   # Parses markdown for rendering.
   def markdown(text)
     markdown = Redcarpet::Markdown.new(Redcarpet::Render::HTML,
