@@ -112,7 +112,7 @@
       </div>
 
       <div class="more-licences">
-        <p>Sie brauchen mehrere Lizenzen? <br/> Jetzt <span id="requestCompany" >individuelles Angebot</a> anfragen</p>
+        <p>Sie brauchen mehrere Lizenzen? <br/> Jetzt <span class="highlight-offer" id="requestCompany" >individuelles Angebot</a> anfragen</p>
       </div>
     </div>
     <div class="single-offer">
@@ -134,14 +134,15 @@
       </div>
 
       <div class="more-licences">
-          <p>Sie brauchen mehrere Lizenzen? <br/> Jetzt <span style="font-weight: bold" id="requestSchool" >individuelles Angebot</span> anfragen</p>
+          <p>Sie brauchen mehrere Lizenzen? <br/> Jetzt <span class="highlight-offer" id="requestSchool" >individuelles Angebot</span> anfragen</p>
       </div>
     </div>
   </div>
 
   <div id="offer-form" class="offer-form-container">
 
-    <div class="">
+    <div style="position: relative">
+      <div id="offer-toggle">&times;</div>
       <h5 style="color: #142954">Individuelles Angebot anfragen</h5>
       <p style="color: #142954">Fragen Sie Ihr individuelles Angebot an. Wir melden uns innerhalb 24 Stunden mit einer persönlichen Offerte.
      
@@ -194,6 +195,11 @@ document.getElementById('requestCompany').onclick=function(){
 }
 document.getElementById('requestSchool').onclick=function(){
   openForm("school");
+
+}
+
+document.getElementById('offer-toggle').onclick=function(){
+  closeForm();
 
 }
 

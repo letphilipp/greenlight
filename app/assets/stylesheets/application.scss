@@ -263,6 +263,18 @@ a {
 	}
 }
 
+.highlight-offer {
+	font-weight: bold;
+	cursor: pointer;
+}
+
+#offer-toggle {
+	position: absolute;
+	right: 0;
+	line-height: 1;
+	font-size: 30px;
+}
+
 .offer-bluebutton {
 	background: #0d2a57;
 	border: none;
