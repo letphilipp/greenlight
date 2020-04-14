@@ -175,7 +175,7 @@ de_DE:
   delivery_error: Während der Emailzustellung ist ein Fehler aufgetreten. Bitte kontaktieren Sie einen Administrator!
   docs: Dokumentation
   email: Email
-  email_sent: "Ihre %{email_type} Email wurde verschickt! (Bitte prüfen Sie Ihren Spamordner, falls Sie die Email nicht erhalten haben)"
+  email_sent: "Ihre %{email_type}semail wurde versendet! (Bitte prüfen Sie Ihren Spamordner, falls Sie die Email nicht erhalten haben)"
   enter_your_name: Geben Sie Ihren Namen ein!
   errors:
     bigbluebutton:
@@ -552,5 +552,5 @@ de_DE:
     not_verified: Ihr Zugang wurde noch nicht verifiziert.
     resend: Verifikationsemail erneut versenden
     signin: "Einloggen, um auf den eigenen Account zuzugreifen."
-    title: Verifizierung Sie Ihre Email
+    title: Verifizieren Sie Ihre Email
     verification: Verifikation
