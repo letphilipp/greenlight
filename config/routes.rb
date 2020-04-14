@@ -32,7 +32,7 @@ Rails.application.routes.draw do
 
   # W3 Routes
 
-  post '/sendOfferRequest', to: 'requests#sendRequest', as: :sendOfferRequest
+  post '/sendOfferRequest', to: 'requests#test', as: :sendOfferRequest
 
   # Redirect to terms page
   match '/terms', to: 'users#terms', via: [:get, :post]

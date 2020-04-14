@@ -98,4 +98,16 @@ class UserMailer < ApplicationMailer
 
     mail to: admin_emails, subject: t('mailer.user.invite.signup.subject')
   end
+
+  def new_request(name, type, email, organisation, salutation, amount, post)
+    @name = name
+    @type = type
+    @email = email
+    @organisation = organisation
+    @salutation = salutation
+    @amount = amount
+    @post = post
+
+    mail(to: "philipp@w3-development.de", subject: 'Neue Anfrage')
+  end
 end

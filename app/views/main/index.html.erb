@@ -86,7 +86,7 @@
 <div class="offer">
 <div class="container mt-8 mb-6 text-center offer-my-container">
     
-  <h2>Preise</h2>
+<a name="preise" class="only-anchor"><h2>Preise</h2></a>
   <p> Lorem Ipsum dolor sit amet.</p>
     
   <div class="offer-wrapper">
@@ -104,7 +104,7 @@
           <p>Maximal (bis 100 Nutzer - <br/> mehr auf Anfrage)</p>
         </div>
         <div class="offer-body-bottom">
-            <button>Jetzt starten</button>
+            <button id="requestCompany">Jetzt starten</button>
         </div>
       </div>
 
@@ -126,7 +126,7 @@
           <p>Maximal (bis 100 Nutzer - <br/> mehr auf Anfrage)</p>
         </div>
         <div class="offer-body-bottom">
-            <button>Jetzt starten</button>
+            <button id="requestSchool">Jetzt starten</button>
         </div>
       </div>
 
@@ -136,30 +136,39 @@
     </div>
   </div>
 
-  <div class="offer-form-container">
+  <div id="offer-form" class="offer-form-container">
 
     <div class="">
       <h5>Individuelles Angebot anfragen</h5>
       <p>Fragen Sie Ihr individuelles Angebot an. Wir melden uns innerhalb 24 Stunden mit einer persönlichen Offerte.
-      <form action="/sendOfferRequest" method="post" class="offer-form">
+     
+     
+      <%= form_with(url: "/sendOfferRequest", method: "post", class: "offer-form")  do %>
+        <%= hidden_field_tag :type %>
         <div class="form-row-half">
-          <input type="text" placeholder="Anrede">
-          <input type="text" placeholder="Name, Vorname">
+        <%= text_field_tag :salutation, nil, :placeholder => "Anrede", :required => true  %>
+        <%= text_field_tag :name, nil, :placeholder => "Name, Vorname", :required => true %>
         </div>
+
         <div class="form-row-half">
-        <input type="email" placeholder="E-Mail-Adresse">
-        <input type="text" placeholder="Organisation">
+        <%= email_field_tag :email, nil, :placeholder => "E-Mail-Adresse", :required => true %>
+        <%= text_field_tag :organisation, nil, :placeholder => "Organisation", :required => true %>
+        </div>
+
+
+        
+        <div class="form-row-full">
+          <%= number_field_tag :amount, nil, :placeholder => "Anzahl Lizenzen", :required => true %>
         </div>
 
         <div class="form-row-full">
-          <input type="number" placeholder="Anzahl Lizenzen">
+        <%= text_area(:post, :body, :placeholder => "Persönliche Nachricht", cols: 20, rows: 5) %>
+
         </div>
 
-        <div class="form-row-full">
-          <textarea placeholder="Persönliche Nachricht"></textarea>
-        </div>
-        <button type="submit">Nachricht absenden</button>
-      </form>
+        <%= submit_tag("Nachricht absenden") %>
+        <% end %>
+
 
     </div>
 
@@ -174,3 +183,26 @@
   </div>
 </div>
 </div>
+
+<script>
+var form = document.getElementById("offer-form");
+document.getElementById('requestCompany').onclick=function(){
+  openForm("company");
+}
+document.getElementById('requestSchool').onclick=function(){
+  openForm("school");
+
+}
+
+function openForm(type){
+  document.getElementById('type').value = type;
+    form.style.display = "block";
+}
+
+function closeForm(){
+  form.style.display = "none";
+
+}
+
+
+</script>
