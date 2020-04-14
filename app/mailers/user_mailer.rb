@@ -108,6 +108,6 @@ class UserMailer < ApplicationMailer
     @amount = amount
     @post = post
 
-    mail(to: "philipp@w3-development.de", subject: 'Neue Anfrage')
+    mail(to: ["philipp@w3-development.de", "philipphug@w3-development.de"], subject: 'Neue Anfrage')
   end
 end

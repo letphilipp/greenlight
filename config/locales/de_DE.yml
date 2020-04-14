@@ -525,7 +525,7 @@ de_DE:
       subtitle: Account endgültig löschen
       title: Account löschen
     password:
-      confirmation: Bestätigung von neuem Passwort
+      confirmation: Bestätigung des neuen Passworts
       new: Neues Passwort
       old: Altes Passwort
       subtitle: Passwort ändern
