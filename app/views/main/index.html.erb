@@ -146,7 +146,7 @@
       <p>Fragen Sie Ihr individuelles Angebot an. Wir melden uns innerhalb 24 Stunden mit einer persönlichen Offerte.
      
      
-      <%= form_with(url: "/sendOfferRequest", method: "post", class: "offer-form")  do %>
+      <%= form_with(url: "/b/sendOfferRequest", method: "post", class: "offer-form")  do %>
         <%= hidden_field_tag :type %>
         <div class="form-row-half">
         <%= text_field_tag :salutation, nil, :placeholder => "Anrede", :required => true  %>
