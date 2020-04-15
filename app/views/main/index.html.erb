@@ -71,7 +71,7 @@
       <div class="col-lg-3 col-md-6 w3-feature">
         <span class="stamp bg-primary"><i class="fas fa-2x fa-user-friends"></i></span>
         <h4 class="mt-4">3. Konferenz erstellen </h4>
-        <p>Erstellen Sie Ihr individuelle digitale Konferenz. </p>
+        <p>Erstellen Sie Ihre individuelle digitale Konferenz. </p>
 
       </div>
 
@@ -87,10 +87,10 @@
 <div class="container mt-8 mb-6 text-center offer-my-container">
     
 <a name="preise" class="only-anchor"><h2>Preise</h2></a>
-  <p> Für die ersten 20 Schulen/Unternehmen ist die Benutzung bis zum 15.06. kostenlos. <br/>
-  Alle darauffolgenden Nutzer erhalten bis zum 15.06. 50% Rabatt.
-  <br/>
-  Jetzt 2 Wochen gratis testen.</p>
+  <p> Für die ersten 20 Schulen/Unternehmen ist die Benutzung bis zum 15.06.2020 kostenlos. <br/>
+  Alle darauffolgenden Nutzer erhalten bis zum 15.06.2020 50% Rabatt.</p>
+
+  <p class="orange-link-wrapper"><a class="orange-link" href="/b/signup"> Jetzt 2 Wochen gratis testen.</a></p>
     
   <div class="offer-wrapper">
     <div class="single-offer">
@@ -103,7 +103,7 @@
           <p>User / Monat</p>
         </div>
         <div class="offer-body-mid">
-          <span class="offer-price">CHF 500</span>
+          <span class="offer-price">CHF 500 / Monat</span>
           <p>Maximal (bis 100 Nutzer - <br/> mehr auf Anfrage)</p>
         </div>
         <div class="offer-body-bottom">
@@ -125,7 +125,7 @@
         <p>Lehrer / Monat</p>
         </div>
         <div class="offer-body-mid">
-          <span class="offer-price">CHF 500</span>
+          <span class="offer-price">CHF 500 / Monat</span>
           <p>Maximal (bis 100 Nutzer - <br/> mehr auf Anfrage)</p>
         </div>
         <div class="offer-body-bottom">
@@ -150,8 +150,10 @@
       <%= form_with(url: "/b/sendOfferRequest", method: "post", class: "offer-form")  do %>
         <%= hidden_field_tag :type %>
         <div class="form-row-half">
-        <%= text_field_tag :salutation, nil, :placeholder => "Anrede", :required => true  %>
-        <%= text_field_tag :name, nil, :placeholder => "Name, Vorname", :required => true %>
+        <div class="select-wrapper">
+        <%= select_tag "salutation", raw("<option selected disabled hidden value=''>Anrede</option><option value='Herr'>Herr</option><option value='Frau'>Frau</option>"), :required => true %>
+        </div>
+        <%= text_field_tag :name, nil, :placeholder => "Vollständiger Name", :required => true %>
         </div>
 
         <div class="form-row-half">
