@@ -676,6 +676,12 @@ a {
 }
 
 @media screen and (max-width: 500px) {
+
+  .price-button{
+    display: none;
+  }
+
+
   .yt-iframe {
     height: 260px;
   }

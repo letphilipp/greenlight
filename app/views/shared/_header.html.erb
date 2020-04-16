@@ -93,7 +93,7 @@
           </div>
         <% else %>
           <% allow_greenlight_accounts = allow_greenlight_accounts? %>
-          <a class="btn mx-2 sign-in-button" href="/b#preise">Preise</a>
+          <a class="btn mx-2 sign-in-button price-button" href="/b#preise">Preise</a>
           <% if allow_greenlight_accounts %>
             <%= link_to t("login"), signin_path, :class => "btn btn-outline-primary mx-2 sign-in-button" %>
           <% elsif Rails.configuration.loadbalanced_configuration %>
