@@ -49,6 +49,10 @@
           </button>
         </span>
       </div>
+      <div class="tos-wrapper tos-wrapper-join">
+                <%= check_box_tag 'tos', 'yes', false, class: 'accept_tos', :required => true %>
+                <label class="tos-label" for="tos"> Ich habe die <a target="_blank" href="https://www.learneasy24.com/de/privacy-policy">Datenschutzerklärung</a> zur Kenntnis genommen. </label>
+              </div>
     <% end %>
   <% end %>
 <% end %>

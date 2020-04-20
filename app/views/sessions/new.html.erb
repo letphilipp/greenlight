@@ -76,6 +76,10 @@
                   <div class="invalid-feedback d-block"><%= @user.errors.full_messages_for(:base).first %></div>
                 </div>
               <% end %>
+              <div class="tos-wrapper">
+                <%= check_box_tag 'tos', 'yes', false, class: 'accept_tos', :required => true %>
+                <label class="tos-label" for="tos"> Ich habe die <a target="_blank" href="https://www.learneasy24.com/de/privacy-policy">Datenschutzerklärung</a> zur Kenntnis genommen. </label>
+              </div>
               <%= f.submit t("signup.title"), class: "btn btn-primary btn-block signin-button" %>
             </div>
           <% end %>
