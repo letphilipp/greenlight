@@ -103,7 +103,8 @@ p {
 	position: relative;
 	height: auto;
 	// min-height: calc(100% - #{$header-height} - #{$footer-height});
-	min-height: calc(100% - 574px);
+	// min-height: calc(100% - 574px);
+	min-height: calc(100% - 471px);
 	//   margin-bottom: 75px;
 }
 
