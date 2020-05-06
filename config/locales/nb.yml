@@ -281,7 +281,7 @@ nb:
         subtitle: "%{role} Rettigheter tilkjent"
       verify_email:
         welcome: "Velkommen til din personlige området, %{name}!"
-        success: "Med LearnEasy24 for school, kan du lage dine egne rom for å arrangere økter og samarbeide med andre."
+        success: "Med svividoo, kan du lage dine egne rom for å arrangere økter og samarbeide med andre."
         username: "Brukernavnet ditt er %{email}."
         verify: "For å bekrefte kontoen din, klikker du bare på knappen nedenfor."
         verify_text: 'For å bekrefte kontoen din, klikker du på lenken nedenfor: %{url}'

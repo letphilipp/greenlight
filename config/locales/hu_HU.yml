@@ -281,7 +281,7 @@ hu_HU:
         subtitle: "%{role} jogosultságok biztosítva"
       verify_email:
         welcome: "%{name}, üdvözlünk a személyes területeden!"
-        success: "Használd ki a LearnEasy24 for school rendszert, hogy saját szobákat hozz létre és együttműködhess másokkal."
+        success: "Használd ki a svividoo rendszert, hogy saját szobákat hozz létre és együttműködhess másokkal."
         username: "A felhasználóneved %{email}."
         verify: A fiókod visszaigazolásához kattints a gombra.
         verify_text: 'A fiókod visszaigazolásához kattints a linkre: %{url}'

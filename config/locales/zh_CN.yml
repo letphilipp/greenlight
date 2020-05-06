@@ -311,7 +311,7 @@ zh_CN:
         subtitle: "%{role} 权限已授予"
       verify_email:
         welcome: "欢迎来到您的个人空间，%{name}！"
-        success: "使用LearnEasy24 for school，您可以创建个人会议室来主持会议并与其他人协作。"
+        success: "使用svividoo，您可以创建个人会议室来主持会议并与其他人协作。"
         username: "您的用户名是%{email}。"
         verify: 要验证您的帐户，只需单击下面的按钮。
         verify_text: '要验证您的帐户，只需点击以下链接：%{url}'

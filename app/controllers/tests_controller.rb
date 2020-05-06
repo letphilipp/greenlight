@@ -16,15 +16,10 @@
 # You should have received a copy of the GNU Lesser General Public License along
 # with BigBlueButton; if not, see <http://www.gnu.org/licenses/>.
 
-class RequestsController < ApplicationController
-    
-  
-    
+class TestsController < ApplicationController
+   
     def test
-
-        UserMailer.new_request(params["name"], params["type"], params["email"], params["organisation"], params["salutation"], params["amount"], params["post"]).deliver
-        return redirect_back(fallback_location: root_path  , flash: { success: "Deine Anfrage wurde versandt." })
-
+      print("hallo");
     end
-end
+  end
   

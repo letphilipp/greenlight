@@ -277,7 +277,7 @@ sv_SE:
         subtitle: "%{role} Rättigheter beviljas"
       verify_email:
         welcome: "Välkommen till ditt personliga utrymme, %{name}!"
-        success: "Hantera LearnEasy24 for school, du kan skapa egna rum för att vara värd sessioner och samarbeta med andra."
+        success: "Hantera svividoo, du kan skapa egna rum för att vara värd sessioner och samarbeta med andra."
         username: "Ditt användarnamn är %{email}."
         verify: "För att verifiera ditt konto, klicka bara på knappen nedan."
         verify_text: 'För att verifiera ditt konto, följ bara den här länken: %{url}'

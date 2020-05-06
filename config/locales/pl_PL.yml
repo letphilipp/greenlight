@@ -277,7 +277,7 @@ pl_PL:
         subtitle: "Uprawnienia przydzielono"
       verify_email:
         welcome: "Witaj w osobistej przestrzeni, %{name}!"
-        success: "Wykorzystując LearnEasy24 for school, możesz tworzyć własne pokoje do prowadzenia sesji i współpracy z innymi."
+        success: "Wykorzystując svividoo, możesz tworzyć własne pokoje do prowadzenia sesji i współpracy z innymi."
         username: "Twoja nazwa użytkownika to %{email}."
         verify: "Aby zweryfikować swoje konto, kliknij przycisk poniżej."
         verify_text: 'Aby zweryfikować swoje konto, wystarczy kliknąć ten link: %{url}'

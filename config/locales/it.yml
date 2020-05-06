@@ -277,7 +277,7 @@ it:
         subtitle:
       verify_email:
         welcome: "Benvenuti nel vostro spazio personale, %{name}!"
-        success: "Supporta LearnEasy24 for school, puoi creare le tue stanze e ospitare meeting per collaborare con altri utenti."
+        success: "Supporta svividoo, puoi creare le tue stanze e ospitare meeting per collaborare con altri utenti."
         username: "Il tuo nome utente è %{email}."
         verify: "Per verificare il tuo account, clicca sul link seguente."
         verify_text: 'Per verificare il tuo account, visita questo indirizzo: %{url}'

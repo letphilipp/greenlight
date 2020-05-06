@@ -34,6 +34,10 @@ Rails.application.routes.draw do
 
   post '/sendOfferRequest', to: 'requests#test', as: :sendOfferRequest
 
+  get '/schulen', to: 'landing#schools', as: :schulen
+  get '/unternehmen', to: 'landing#business', as: :unternehmen
+  get '/ueberuns', to: 'landing#about', as: :ueberuns
+
   # Redirect to terms page
   match '/terms', to: 'users#terms', via: [:get, :post]
 

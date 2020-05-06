@@ -17,51 +17,54 @@
 
 <div class="main-footer normal-footer">
 
+<%
 
-  <div class="footer-top ">
-    <div class="footer-top-content container">
-      <div class="footer-top-left">
-        <p class="ftl-big">
-          Einfach. Online. Lernen.
-        </p>
-        <p class="ftl-small">
-          Die Nachhilfeplattform für das digitale Zeitalter.
-        </p>
-      </div>
-      <div class="footer-top-right">
-      <a class="ft-link" href="https://www.learneasy24.com/de" target="_blank">
-        <p class="fpr-text">
-        Jetzt Nachhilfe nehmen
-        </p>
-        </a>
-      </div>
-    </div>
-  </div>
-
+#  <div class="footer-top ">
+#    <div class="footer-top-content container">
+#      <div class="footer-top-left">
+#        <p class="ftl-big">
+#          Einfach. Online. Lernen.
+#        </p>
+#        <p class="ftl-small">
+#          Die Nachhilfeplattform für das digitale Zeitalter.
+#        </p>
+#      </div>
+#      <div class="footer-top-right">
+#      <a class="ft-link" href="https://www.learneasy24.com/de" target="_blank">
+#        <p class="fpr-text">
+#        Jetzt Nachhilfe nehmen
+#        </p>
+#        </a>
+#      </div>
+#    </div>
+#  </div>
+%>
 
   <div class="inner-wrapper container">
-    <div class="element">
-      <h5>Generell</h5> 
-      <ul>
-        <li>
-          <a href="https://www.learneasy24.com/de/search" target="_blank" class="">Finde einen Tutor</a>
-        </li>
-        <li>
-          <a href="https://www.learneasy24.com/de/how-it-works" target="_blank" class="">Wie es funktioniert</a>
-        </li>
-        <li>
-          <a href="https://www.learneasy24.com/de/did-you-know" target="_blank" class="">Hast du gewusst?</a>
-        </li>
-        <li>
-          <a href="https://www.learneasy24.com/de/affiliate/register" target="_blank" class="">Affiliate Program</a>
-        </li>
-      </ul>
-    </div>
+  <%
+    #<div class="element">
+    #  <h5>Generell</h5> 
+    #  <ul>
+    #    <li>
+    #      <a href="https://www.learneasy24.com/de/search" target="_blank" class="">Finde einen Tutor</a>
+    #    </li>
+    #    <li>
+    #      <a href="https://www.learneasy24.com/de/how-it-works" target="_blank" class="">Wie es funktioniert</a>
+    #    </li>
+    #    <li>
+    #      <a href="https://www.learneasy24.com/de/did-you-know" target="_blank" class="">Hast du gewusst?</a>
+    #    </li>
+    #    <li>
+    #      <a href="https://www.learneasy24.com/de/affiliate/register" target="_blank" class="">Affiliate Program</a>
+    #    </li>
+    #  </ul>
+    #</div>
+    %>
     <div class="element">
     <h5>Info</h5>
     <ul>
     <li>
-    <a href="https://www.learneasy24.com/de/about-us" target="_blank" class="">Über uns / Impressum</a>
+    <a href="/b/ueberuns" target="_blank" class="">Über uns / Impressum</a>
     </li>
     <li>
     <a href="mailto:deutsch@LearnEasy24.com" target="_blank">Kontaktiere uns</a>
@@ -83,10 +86,12 @@
     <br>
     </div>
     <div class="element logo">
-    <%= image_tag("logo-footer.svg", class: "footer-logo") %>
-    <div class="credentials-wrapper">
-    <p>2020 © LearnEasy24<br>Alle Rechte vorbehalten</p>
-    </div>
+    <%= image_tag("svividoo_black.svg", class: "footer-logo") %>
+    <%
+    #<div class="credentials-wrapper">
+    #<p>2020 © LearnEasy24<br>Alle Rechte vorbehalten</p>
+    #</div>
+    %>
     </div>
   </div>
 </div>
