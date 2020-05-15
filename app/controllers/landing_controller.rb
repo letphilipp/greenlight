@@ -11,4 +11,17 @@ class LandingController < ApplicationController
     def about
 
     end
+
+    def agb
+
+    end
+
+    def datenschutz
+
+    end
+
+    def team
+
+        
+    end
 end

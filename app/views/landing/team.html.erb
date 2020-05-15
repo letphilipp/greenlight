@@ -1,0 +1,53 @@
+<div class="background background-hero background-hero-team">
+  <div class="container pt-8 pb-8">
+    <div class="row">
+      <div class="col-md-12 col-sm-12 text-center">
+        <h1 id="main-text" class="display-4 mb-4 extra-bold">Team</h1>
+        
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<% if flash[:msg] %>
+  <div class="message"><%= flash[:msg] %></div>
+<% end %>
+
+<div class="container feature-container ">
+    
+    <p>
+    Was kommt heraus, wenn man Menschen aus verschiedenen Ländern zusammenbringt, die eine Vielzahl an Sprachen beherrschen und unterschiedliche Fähigkeiten haben? Die perfekte Mischung aus Kreativität, Innovation und dem gewissen Etwas.
+
+Hier sind die Gesichter derer, die hinter den Kulissen die Plattform svividoo aufbauen, erweitern und entwickeln.</p>
+   <div class="row">
+      <div class="col-lg-4 col-md-6 col-sm-12 w3-feature horizontal-wrapper">
+        <%= image_tag("landing/enzo.png", :alt => "Enzo") %>
+
+        <div class="text-center full-width mt-2">
+            <h4>Enzo (CEO & Founder)</h4>
+            </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 col-sm-12 w3-feature horizontal-wrapper">
+        <%= image_tag("landing/judith.png", :alt => "Judith") %>
+
+        <div class="text-center full-width mt-2">
+            <h4 class="text-center" >Judith</h4>
+            </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 col-sm-12 w3-feature horizontal-wrapper">
+        <%= image_tag("landing/davide.png", :alt => "Davide") %>
+
+        <div class="text-center full-width mt-2">
+            <h4>Davide</h4>
+        </div>
+      </div>
+
+     
+  </div>
+  
+</div>
+
+

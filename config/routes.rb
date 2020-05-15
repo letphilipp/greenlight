@@ -37,6 +37,9 @@ Rails.application.routes.draw do
   get '/schulen', to: 'landing#schools', as: :schulen
   get '/unternehmen', to: 'landing#business', as: :unternehmen
   get '/ueberuns', to: 'landing#about', as: :ueberuns
+  get '/agb', to: 'landing#agb', as: :agb
+  get '/datenschutz', to: 'landing#datenschutz', as: :datenschutz
+  get '/team', to: 'landing#team', as: :team
 
   # Redirect to terms page
   match '/terms', to: 'users#terms', via: [:get, :post]
